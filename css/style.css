@@ -15,7 +15,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari */
 
 
-   
+
 
 
 /* Globals type styling */
@@ -185,10 +185,10 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 /* Bloc image backgrounds */
 
 .bg-tile-d-bg{
-	background-image:url('img/tile-d-bg.png');
+	background-image:url('../img/tile-d-bg.png');
 }
 .bg-forrest{
-	background-image:url('img/forrest.jpg');
+	background-image:url('../img/forrest.jpg');
 }
 
 /* = NavBar
@@ -419,13 +419,13 @@ iframe{
 
 
 
-/* = Mobile adjustments 
+/* = Mobile adjustments
 -------------------------------------------------------------- */
 @media (max-width: 768px)
 {
     .container{width:100%;}
     .b-parallax{background-attachment:scroll;}
-    .page-container, #hero-bloc{overflow-x: hidden;position: relative;} /* Prevent unwanted side scroll on mobile */  
+    .page-container, #hero-bloc{overflow-x: hidden;position: relative;} /* Prevent unwanted side scroll on mobile */
 }
 @media (max-width: 767px)
 {
@@ -434,8 +434,8 @@ iframe{
         position:relative;
     }
     h1,h2,h3,h4,h5,h6,p{
-        padding-left:10px!important; 
-        padding-right:10px!important; 
+        padding-left:10px!important;
+        padding-right:10px!important;
     }
     #hero-bloc h1{
         font-size:40px;
@@ -447,8 +447,8 @@ iframe{
         font-size:25px;
     }
     .bloc{
-        padding-left: 0; 
-        padding-right: 0;  
+        padding-left: 0;
+        padding-right: 0;
         -webkit-background-size: auto 200%;
         -moz-background-size: auto 200%;
         -o-background-size: auto 200%;
@@ -460,7 +460,7 @@ iframe{
     .b-parallax{
         background-attachment:scroll;
     }
-    
+
     .navbar .nav{
         padding-top: 0;
         border-top:1px solid rgba(0,0,0,.2);
@@ -475,7 +475,7 @@ iframe{
 	   transform:none;
 	   -webkit-transform:none;
 	   -ms-transform:none;
-    }  
+    }
     .nav > li{
         margin-top: 0;
         border-bottom:1px solid rgba(0,0,0,.1);
@@ -505,17 +505,17 @@ iframe{
     .navbar-brand img{
         max-height: 40px;
         width:auto;
-        margin: -10px 10px 0 0;    
+        margin: -10px 10px 0 0;
     }
     .nav-invert .navbar-header{
         float: none;
         width:100%;
     }
     .nav-invert .navbar-toggle{
-        float:left; 
+        float:left;
     }
     .btn.pull-left, .btn.pull-right{
-       float:none!important; 
+       float:none!important;
     }
     .bloc-group .bloc{
          display:block;
@@ -529,14 +529,14 @@ iframe{
         padding: 40px 0;
     }
     .bloc-sm,.bloc-md{
-        padding-left: 0; 
+        padding-left: 0;
         padding-right: 0;
     }
     .a-block{
         text-align: center;
     }
     .btn-dwn{
-       display:none; 
+       display:none;
     }
     form{
         padding:5px;
